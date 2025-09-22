@@ -47,7 +47,7 @@ class ValidationConstant
 
     public const RULE_NUMERIC = 'numeric';
     public const RULE_VALUE = ':value';
-    
+
     public const KEY_ATTRIBUTE = ':attribute';
     public const KEY_OTHER = ':other';
     public const INVALID_DATA_FOR_KEY = 'Invalid data for :attribute';
@@ -81,5 +81,5 @@ class ValidationConstant
     public const MESSAGE_KEY_DOESNT_START_WITH = 'The :attribute cannot start with :value';
     public const MESSAGE_KEY_DOESNT_END_WITH = 'The :attribute cannot end with :value';
     public const MESSAGE_KEY_MULTIPLE_OF = 'The :attribute must be a multiple of :value';
-    public const MESSAGE_KEY_SAME ='The :attribute and :other must match';
+    public const MESSAGE_KEY_SAME = 'The :attribute and :other must match';
 }
